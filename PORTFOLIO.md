@@ -7,3 +7,7 @@ XBuil 是整合式營建工程與企業管理應用，將工程現場、人員�
 ## Demo sequence / 展示順序
 
 Home → project list → project detail → salary overview → company monthly report → language switch → mobile viewport. Use fictional data only.
+
+## Release verification / 發布驗證
+
+2026-11-26: the public demo was switched to the CI-passing release. Recorded local acceptance: 3,523 tests across 457 files; 42/42 mock browser E2E checks; production dependency audit reported zero known advisories at release time. Hosted runtime and cloud AI are not certified; development dependency advisories remain. Public browser role-by-role retesting is pending.
