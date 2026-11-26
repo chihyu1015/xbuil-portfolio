@@ -6,7 +6,7 @@
 
 XBuil connects project management, field operations, workforce and payroll, contracts, invoicing and company finance in a bilingual web application. It is designed for construction company administrators, field workers and project owners.
 
-[Live demo](https://xbuild-demo.vercel.app/?v=2) — public interactive preview. Fictional browser-local data only.
+[Live demo](https://xbuild-demo.vercel.app/) — public interactive preview. Fictional browser-local data only.
 
 ## Features
 
@@ -17,7 +17,7 @@ XBuil connects project management, field operations, workforce and payroll, cont
 | Commercial | Quotations, contracts, invoices and PDF views |
 | Finance | Project and company financial views, monthly reports |
 | Company | Members, business contacts, announcements and settings |
-| Collaboration | Messages, forum and AI assistant interface (AI runtime not verified) |
+| Collaboration | Communication Hub, messages, forum and AI assistant interface (AI runtime not verified) |
 | Experience | Traditional Chinese and English, responsive desktop/mobile layout |
 
 ## Technology
@@ -26,10 +26,14 @@ React 19, TypeScript 5.7, Vite 6, Tailwind CSS 4, React Router 7, i18next, Supab
 
 ## Demo access
 
-Select Admin, Worker or Owner before signing in. Example demo accounts: `admin@xbuil.demo`, `worker@xbuil.demo`, `owner@xbuil.demo`. Password: `demo`. These are fictional demo identities only.
+Choose Admin, Worker or Owner using the one-click demo login. No registration is required. All identities and data are fictional.
 
 ## Documentation
 
 [Portfolio](PORTFOLIO.md) · [Role workflows](ROLE_WORKFLOWS.md)
 
 This repository contains public-facing documentation only. Application source code is private. The demo is not a certified production system; business logic, performance and hosted security validation remain separate.
+
+## Release verification / 發布驗證
+
+2026-11-26: the public demo was switched to the CI-passing release. Recorded local acceptance: 3,523 tests across 457 files; 42/42 mock browser E2E checks; production dependency audit reported zero known advisories at release time. Hosted runtime and cloud AI are not certified; development dependency advisories remain. Public browser role-by-role retesting is pending.
