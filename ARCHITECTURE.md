@@ -20,3 +20,7 @@ Conceptual workflow: project assignments → attendance → payroll → labor co
 ## Isolation / 隔離
 
 Demo uses fictional browser-local data; it is not a shared hosted database. Hosted code exists but hosted runtime, RLS and database performance are outside the present acceptance scope.
+
+## Release verification / 發布驗證
+
+2026-11-26: the public demo was switched to the CI-passing release. Recorded local acceptance: 3,523 tests across 457 files; 42/42 mock browser E2E checks; production dependency audit reported zero known advisories at release time. Hosted runtime and cloud AI are not certified; development dependency advisories remain. Public browser role-by-role retesting is pending.
